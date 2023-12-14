@@ -8,67 +8,89 @@ nom de composante=Texte francais;texte anglais|Hint en francais;hint en anglais
 ---------------------------------------------------------------------------------
 Fenêtre de connection (LoginForm)
 ---------------------------------------------------------------------------------
-LoginForm.caption=Connection;Connection	
-label_id=Identifiant;Id
+LoginForm.caption=Connexion;Connection	
+label_id=Identifiant;Username
 label_passe=Mot de passe;Password
-connecter=SE CONNECTER;CONNECTION
-quitter_login=QUITTER;QUIT
+connecter=Se connecter;Sign in
+quitter_login=Quitter;Quit
 
 ==================================================================================
 Fenêtre du Classeur (ClasseurForm)
 ---------------------------------------------------------------------------------
 **Partie à gauche 
-Classeurform.caption=Classeur - Omnimed;Classeur - Omnimed
-Label_titre=Classeur et numérisation;Sort && Scan
-Label_compte=COMPTE;ACCOUNT
-Btn_actual=|Actualiser la liste des fichiers;Refresh files list
+Classeurform.caption=Omnimed - Gestion des documents;Omnimed - Document management
+Label_titre=Gestion des documents;Document management
+Label_dossier=Répertoire;Directory
+label_etablissement=Établissement;Site
+Btn_actual=|Actualiser la liste de fichiers;Refresh files list
 Num_auto=Numériser;Scan|F4-Numériser selon la configuration de base sans dialogue;F4-Scan according to basic configuration without dialog
-Couleur=Couleur;Color
-legal=Légal;Legal
+Couleur=Couleur;Colour|Numérisé en couleur pour cette fois seulement;Color scanning for this one only
+legal=Légal;Legal|Forcer papier légal;Force legal paper 
 num_manu=|F5-Numériser avec dialogue et manipulation;F5-Scan with dialog and manipulation
-autoscan1=Détection automatique du papier;Auto-detect paper
-cocher=|Cocher tout~(Utiliser la barre espace pour cocher rapidement);Check all~(Use the space bar to quickly check)
-decoche=|Décocher tout~(Utiliser la barre espace pour cocher rapidement);Uncheck all~(Use the space bar to quickly check)
-assembler=|Assembler les documents sélectionnés;Assemble the selected documents
-paste_doc=|Coller en un nouveau document;Paste into a new document
-detruire=|Détruire les documents cochés;Delete checked documents
-putnuage=|Envoyer les documents sélectionné sur le nuage;Send selected documents to the cloud
-getnuage=|Récupérer les documents sur le nuage;Retrieve documents from the cloud
+autoscan1=Détection automatique;Auto detection|Détection du papier et démarrage de la numérisation automatique;Paper detection and automatic scanning start
+scan_decomposer=Décomposer;                Split|Décomposer le document en pages;Split document into pages
+cocher=|Sélectionner tout~(Utiliser la barre espace pour sélectionner rapidement);Select all~(Use the space bar to quickly select)
+decoche=|Désélectionner tout~(Utiliser la barre espace pour sélectionner rapidement);Deselect all~(Use the space bar to quickly select)
+assembler=|Fusionner;Merge
+regrouper=|Ré-assembler un document décomposé en pages par le traitement initial;Re-assemble a document broken down in pages by initial processing
+paste_doc=|Coller;Paste
+detruire=|Supprimer;Delete
+Classer_tous=Classer tous;Classify All|Classer tous les documents valides;Archive all valid documents
+//putnuage=|Envoyer les documents sélectionné sur le nuage;Send selected documents to the cloud
+//getnuage=|Récupérer les documents sur le nuage;Retrieve documents from the cloud
 label_ocr=Détection OCR;OCR detection
-label_semi=Semi-valide;Semi-valid
+label_partiel=Partiel;Incomplete
 label_valide=Valide;Valid
-logbut=|Journalisation;Logging
-Classer_tous=Classer tout;Classify all|Classer tous les documents valides;Classify all valid documents
+label_nouveau=Nouveau;New
+
+//logbut=|Journalisation;Logging
+
 
 **Partie document		
-desassemble=|Désassembler~Créer un nouveau document avec les pages sélectionnées ;Disassemble~Create a new document with the selected pages
-del_page=|Retirer les pages sélectionnées du document;Remove selected pages from documents
-monter=|Déplacer la page sélectionnée vers le haut;Move up selected page
-descend|Déplacer la page sélectionnée vers le bas;Move down  selected page
+desassemble=|Défusionner~Créer un nouveau document avec les pages sélectionnées ;Demerge~Create a new document with the selected pages
+del_page=|Supprimer les pages sélectionnées;Delete selected pages
+monter=|Déplacer la page sélectionnée vers le haut;Move selected page up
+descend|Déplacer la page sélectionnée vers le bas;Move selected page down
+ordonner=|Ordonner selon l'ordre de sélection;Order according to selection order
  		
 print_but=|Imprimer;Print
 enreg_but=|Enregistrer sous;Save as
 Copy_page=|Copier;Copy
 paste_page=|Coller;Paste
-zoomout=|Zoom +;Zoom +
-zoomin=|Zoom -;Zoom -
-fitlargeur=|Étirer pleine largeur;Fit to width
+
+zoomout=|Zoom avant;Zoom in
+zoomin=|Zoom arrière;Zoom out
+fitlargeur=|Ajuster à la largeur;Fit to width
 fitpage=|Ajuster à la page;Fit to page
-tourner=|Retourner 90°;Turn 90°
-crop=|Découper pour garder la région sélectionnée;Crop and keep selected region
-nb=|Convertir en noir et blanc;Convert to black & white
-faxup=|Transformer Fax écrasé en 8.5 x 11;Convert Crushed Fax to 8.5 x 11
-faxdown=|Inverser le transformer Fax écrasé en 8.5 x 11;Inverted to turn Crushed Fax into 8.5 x 11
 ecrire=|Apposer un texte sur l'image;Add text to the image
-conserver=Conserver;Save|Conserver les modifications;Keep changes
+editer=|Ouitls d'édition;Edit tools
+
+** outils texte
+boldbutton=|
+italicButton=|
+underlineButton=|
+leftAlign=|
+centerAlign=|
+rightAlign=|
+transparent_Button=|texte noir sur transparent;black text on transparent
+noirsurblanc_Button=|texte noir sur fond blanc;black text on white 
+blancsurnoir_Button=|texte blanc sur fond noir;White text on black
+encadrer_button=|encader le texte;Frame text
+
+** outils d'édition
+tourner=|Pivoter;Rotate
+crop=|Recadrer pour conserver uniquement la sélection;Crop to only keep selected area
+nb=|Convertir en noir et blanc;Convert to black & white
+faxup=|Étirer;Stretch
+faxdown=|Comprimer;Compress
+quitter_tool=|Fermer;close
+
+conserver=Sauvegarder;Save|Sauvegarder les modifications;Save changes
 annuler=Annuler;Cancel|Annuler les modifications;Discard changes
 
 **partie à droite Assignation
 label_Assign=Assignation;Assignment
-exnam=NAM;NAM|Extraction OCR afin de récupérer un NAM;OCR extraction to recover a NAM
-excodebar=|Extraire les codes barre de l'image;Extract barcodes from image
-magicwand=|OCR pour rechercher de modèle et/ou extraction toutes les valeurs;OCR traitment to find model and/or extract all values
-
+//excodebar=|Extraire les codes barre de l'image;Extract barcodes from image
 menu=|Menu;menu
 Numriserautomatique1=Numériser automatique;Automatic scanning
 Numrisermanuel1=Numériser manuel;Manual scannig
@@ -79,27 +101,42 @@ manuel=Manuel;Manual
 testerlaversionBeta1=Tester la version Bêta;Test the Beta version
 Quitter1=Quitter;Close
 		
+
+magicwand=|OCR pour rechercher de modèle et/ou extraction toutes les valeurs;OCR traitment to find model and/or extract all values
+modelfound=Résultat OCR;OCR result
+modele_btn=|Gestion des modèles;Model management
+
 label_patient=Patient;Patient
 chpat=|Chercher;Find
+efface_pat=|
+exnam=NAM;NAM|Extraction OCR afin de récupérer un NAM;OCR extraction to recover a NAM
 keeppatient=|Garder ce patient pour les prochaines opérations;Keep this patient for future operations
-Label_cherchePat=Nam, Nom prénom, naissance, tél, No. dossier;Nam, lastname, first name, birthday, tel, file no.
+Label_cherchePat=Nam, prénom nom, naissance, tél, No. dossier;Nam, first name last name, birthday, tel, file no.
+
 label_medecin=Intervenant responsable;RESPONSIBLE PARTICIPANT
 keepmd=|Garder cet intervenant pour les prochaines opérations;Keep this participant for future operations
+chermd=
 clearmd=X;X|Effacer;Clear		
 suggestion=Suggestions;Suggestions
-label_cherchemd=Partie du nom, prénom ou numéro;Part of the lastname, firstname or licence 
+label_cherchemd=Partie du prénom, nom ou numéro;Part of the firstname, lastname or licence 
+
 label_cc=Copie conforme à;CARBON COPY TO
 keepcc=|Garder cet intervenant pour les prochaines opérations;Keep this participant for future operations
+chercc=
 clearCC=X;X|Effacer;Clear
-label_cherchecc=Partie du nom, prénom ou numéro;Part of the lastname, firstname or licence 
+label_cherchecc=Partie du prénom, nom ou numéro;Part of the firstname, lastname or licence 
+
 prodoc=Propriétés du document;Document properties
 label_type=Type;Type
 keeptype=|Garder ce type pour les prochaines opérations;Keep this type for future operations
 type0=Standard~Standard à réviser~Résultats~Résultats déjà  révisés;Standart~Standart to revise~Results~Results already revise
+anormal=Anormal;Abnormal
 label_cate=Catégorie;Category
 label_cherchercate=Code ou partie de texte;Code or part of text
 keepcate=|Garder cette catégorie pour les prochaines opérations;Keep this category for future operations
-label_raison=Raison de~consultation;consult~reason
+
+label_raison=Raison de consultation;consult reason
+
 enregistrer=Enregistrer;Save|F10-Enregistrer les entrées;F10-Save entries
 Classer=Classer;Classify|F12-Classer immédiatement;F12-Classify immediately
 
@@ -166,7 +203,7 @@ autosizeapp=Taille du papier automatique par l'application;Autosize by app
 OCR=OCR pour recherche du NAM et détection des code barres;OCR processing for NAM search and barcode detection
 OCRLOW=Traiter unique l'entête de la page (beaucoup plus léger et rapide);Process the page header uniquely (much lighter and faster)
 autoscan=Détecter la présence de papier et démarrer la numérisation automatiquement (toutes les 5 secondes;Auto paper detection and start scanning  (every 5 seconds)
-decomposer=inutilisé pour l'instant et non-visible;invisible	
+decomposer=Décomposer en pages tous les documents traités;Split document into pages
 dialogue=Utiliser le dialogue du numériseur;Use scanner dialog
 cache=Numériser en arriere plan (caché);Back process (hide)
 manual=Sauvegarde manuelle;Auto Save
@@ -196,8 +233,8 @@ num_fitwidth=|Adapter à la largeur;Fit to Width
 num_fitpage=|Adapter à la page;Fit to page
 num_rotate=|Retourner de 90°;Rotate 90°
 num_crop=|Découper;Crop
-num_enregistre=|ENREGISTRER;SAVE
-num_quit=|QUITTER;QUIT
+num_enregistre=Enregistrer;Save
+num_quit=Quitter;Quit
 
 
 *scan tools
