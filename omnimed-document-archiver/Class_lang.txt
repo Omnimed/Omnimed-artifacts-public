@@ -1,0 +1,267 @@
+Fichier des textes affichées dans le classeur
+
+nom de composante=Texte francais;texte anglais|Hint en francais;hint en anglais
+; séparateur de francais anglais
+| séparateur de texte et hints
+~ retour de ligne dans un texte ou hint
+
+---------------------------------------------------------------------------------
+Fenêtre de connection (LoginForm)
+---------------------------------------------------------------------------------
+LoginForm.caption=Connexion;Connection	
+label_id=Identifiant;Username
+label_passe=Mot de passe;Password
+connecter=Se connecter;Sign in
+quitter_login=Quitter;Quit
+
+==================================================================================
+Fenêtre du Classeur (ClasseurForm)
+---------------------------------------------------------------------------------
+**Partie à gauche 
+Classeurform.caption=Omnimed - Gestion des documents;Omnimed - Document management
+Label_titre=Gestion des documents;Document management
+Label_dossier=Répertoire;Directory
+label_etablissement=Établissement;Site
+Btn_actual=|Actualiser la liste de fichiers;Refresh files list
+Num_auto=Numériser;Scan|F4-Numériser selon la configuration de base sans dialogue;F4-Scan according to basic configuration without dialog
+Couleur=Couleur;Colour|Numérisé en couleur pour cette fois seulement;Color scanning for this one only
+legal=Légal;Legal|Forcer papier légal;Force legal paper 
+num_manu=|F5-Numériser avec dialogue et manipulation;F5-Scan with dialog and manipulation
+autoscan1=Détection automatique;Auto detection|Détection du papier et démarrage de la numérisation automatique;Paper detection and automatic scanning start
+scan_decomposer=Décomposer;                Split|Décomposer le document en pages;Split document into pages
+cocher=|Sélectionner tout~(Utiliser la barre espace pour sélectionner rapidement);Select all~(Use the space bar to quickly select)
+decoche=|Désélectionner tout~(Utiliser la barre espace pour sélectionner rapidement);Deselect all~(Use the space bar to quickly select)
+assembler=|Fusionner;Merge
+regrouper=|Ré-assembler un document décomposé en pages par le traitement initial;Re-assemble a document broken down in pages by initial processing
+paste_doc=|Coller;Paste
+detruire=|Supprimer;Delete
+Classer_tous=Classer tous;Classify All|Classer tous les documents valides;Archive all valid documents
+//putnuage=|Envoyer les documents sélectionné sur le nuage;Send selected documents to the cloud
+//getnuage=|Récupérer les documents sur le nuage;Retrieve documents from the cloud
+label_ocr=Détection OCR;OCR detection
+label_partiel=Partiel;Incomplete
+label_valide=Valide;Valid
+label_nouveau=Nouveau;New
+
+//logbut=|Journalisation;Logging
+
+
+**Partie document		
+desassemble=|Défusionner~Créer un nouveau document avec les pages sélectionnées ;Demerge~Create a new document with the selected pages
+del_page=|Supprimer les pages sélectionnées;Delete selected pages
+monter=|Déplacer la page sélectionnée vers le haut;Move selected page up
+descend|Déplacer la page sélectionnée vers le bas;Move selected page down
+ordonner=|Ordonner selon l'ordre de sélection;Order according to selection order
+ 		
+print_but=|Imprimer;Print
+enreg_but=|Enregistrer sous;Save as
+Copy_page=|Copier;Copy
+paste_page=|Coller;Paste
+
+zoomout=|Zoom avant;Zoom in
+zoomin=|Zoom arrière;Zoom out
+fitlargeur=|Ajuster à la largeur;Fit to width
+fitpage=|Ajuster à la page;Fit to page
+ecrire=|Apposer un texte sur l'image;Add text to the image
+editer=|Ouitls d'édition;Edit tools
+
+** outils texte
+boldbutton=|
+italicButton=|
+underlineButton=|
+leftAlign=|
+centerAlign=|
+rightAlign=|
+transparent_Button=|texte noir sur transparent;black text on transparent
+noirsurblanc_Button=|texte noir sur fond blanc;black text on white 
+blancsurnoir_Button=|texte blanc sur fond noir;White text on black
+encadrer_button=|encader le texte;Frame text
+
+** outils d'édition
+tourner=|Pivoter;Rotate
+crop=|Recadrer pour conserver uniquement la sélection;Crop to only keep selected area
+nb=|Convertir en noir et blanc;Convert to black & white
+faxup=|Étirer;Stretch
+faxdown=|Comprimer;Compress
+quitter_tool=|Fermer;close
+
+conserver=Sauvegarder;Save|Sauvegarder les modifications;Save changes
+annuler=Annuler;Cancel|Annuler les modifications;Discard changes
+
+**partie à droite Assignation
+label_Assign=Assignation;Assignment
+//excodebar=|Extraire les codes barre de l'image;Extract barcodes from image
+menu=|Menu;menu
+Numriserautomatique1=Numériser automatique;Automatic scanning
+Numrisermanuel1=Numériser manuel;Manual scannig
+Gestiondesmodles1=Gestion des modèles;Model management
+Changerdutilisateur1=Changer d'utilisateur;Change user
+Configuration1=Configuration;Configuration
+manuel=Manuel;Manual
+testerlaversionBeta1=Tester la version Bêta;Test the Beta version
+Quitter1=Quitter;Close
+		
+
+magicwand=|OCR pour rechercher de modèle et/ou extraction toutes les valeurs;OCR traitment to find model and/or extract all values
+modelfound=Résultat OCR;OCR result
+modele_btn=|Gestion des modèles;Model management
+
+label_patient=Patient;Patient
+chpat=|Chercher;Find
+efface_pat=|
+exnam=NAM;NAM|Extraction OCR afin de récupérer un NAM;OCR extraction to recover a NAM
+keeppatient=|Garder ce patient pour les prochaines opérations;Keep this patient for future operations
+Label_cherchePat=Nam, prénom nom, naissance, tél, No. dossier;Nam, first name last name, birthday, tel, file no.
+
+label_medecin=Intervenant responsable;RESPONSIBLE PARTICIPANT
+keepmd=|Garder cet intervenant pour les prochaines opérations;Keep this participant for future operations
+chermd=
+clearmd=X;X|Effacer;Clear		
+suggestion=Suggestions;Suggestions
+label_cherchemd=Partie du prénom, nom ou numéro;Part of the firstname, lastname or licence 
+
+label_cc=Copie conforme à;CARBON COPY TO
+keepcc=|Garder cet intervenant pour les prochaines opérations;Keep this participant for future operations
+chercc=
+clearCC=X;X|Effacer;Clear
+label_cherchecc=Partie du prénom, nom ou numéro;Part of the firstname, lastname or licence 
+
+prodoc=Propriétés du document;Document properties
+label_type=Type;Type
+keeptype=|Garder ce type pour les prochaines opérations;Keep this type for future operations
+type0=Standard~Standard à réviser~Résultats~Résultats déjà  révisés;Standart~Standart to revise~Results~Results already revise
+anormal=Anormal;Abnormal
+label_cate=Catégorie;Category
+label_cherchercate=Code ou partie de texte;Code or part of text
+keepcate=|Garder cette catégorie pour les prochaines opérations;Keep this category for future operations
+
+label_raison=Raison de consultation;consult reason
+
+enregistrer=Enregistrer;Save|F10-Enregistrer les entrées;F10-Save entries
+Classer=Classer;Classify|F12-Classer immédiatement;F12-Classify immediately
+
+
+==================================================================================
+Modèles
+---------------------------------------------------------------------------------
+ModelForm.caption=Gestion des modèles;Model management
+Label_nom=Nom;Name
+detruire_model=|Détruire ce modèle;Delete this model
+label_inclu=Inclusions;Inclusions
+Label_expliq=Le document doit contenir les mots suivants.~Écrits tel quel et un mot par ligne.;The document must contain the following words.~Written as is and one word per line.
+label_type=Type;Type
+type0_model=Standard~Standard à réviser~Résultats~Résultats déjà révisés;Standart~Standart to revise~Results~Results already revise
+label_cate=Catégorie;Category
+label_cherchercate=Code ou partie de texte;Code or part of text
+label_place=Emplacements;Locations
+responNo=Numéro du responsable;Responsible number
+responName=Nom du responsable;Responsible name
+ccName=Nom du CC;CC name
+datedocument=Date du document;Document date
+delno=|Retirer cet emplacement;Remove this location
+delnom=|Retirer cet emplacement;Remove this location
+delcc=|Retirer cet emplacement;Remove this location
+deldate=|Retirer cet emplacement;Remove this location
+Label_dateformat=Format;Format
+Label_expliqPlace=Sélectionner les emplacements sur le documents~et cliquer sur le boutton correspondant.~Vous pouvez cliquer sur les coordonnées~pour faire réapparaître les sélections;Select locations on the document~and click on the corresponding button.~You can click on the coordinates~to reappear the selections
+enregistrer_model=ENREGISTRER;SAVE|Enregistrer le modèle;F10-Save entries
+quitter_model=QUITTER;QUIT|Fermer cette fenêtre;Close this window
+
+ 
+
+
+---------------------------------------------------------------------------------
+Fenêtre de configuration(ConfigForm)
+---------------------------------------------------------------------------------
+ConfigForm.caption=Configuration;Configuration
+Label_titrec=Configuration du système;System Configuration 
+enregistrer_config=ENREGISTRER;SAVE
+quitter_config=QUITTER;QUIT
+page_general=Général;Common
+page_compte=Comptes;Account
+page_num=Numérisation;Scanning
+label_urlApi=URL API;URL API
+label_urlFtp=URL FTP;URL FTP
+Label_urlMaj=URL Mise à jour;URL update
+Label_travail=Dossier de travail;Working folder
+Label_num=Dossier dépôt de numérisation externe;External scanning repository folder
+Label_fax=Dossier de dépôt des télécopies;Fax repository folder
+page_compte=Comptes;Accounts
+webid=Identifiant~Omnimed Web;Omnimed;Web ID
+ftpid=Identifiant~Numérisation FTP;FTP ID
+ftppasse=Mot de passe de~l'identifiant FTP;FTP password
+dosperso=Dossier de numérisation personalisé~(Optionnel);Personalized scanning folder~(Optional)
+fullacces=Accès à tous~les comptes;Full access 
+page_num=Numérisation;Scanning
+label_scanner=Sélection du numériseur;Scanner selection
+recto=Recto/Verso;both sides
+vide=Détection de page vide;Auto detect blank page
+autorotation=Rotation automatique;Auto rotate
+autoborer=Détection des bords;Auto Border
+autosize=Taille du papier automatique par le numériseur;Autosize by scanner
+autosizeapp=Taille du papier automatique par l'application;Autosize by app
+OCR=OCR pour recherche du NAM et détection des code barres;OCR processing for NAM search and barcode detection
+OCRLOW=Traiter unique l'entête de la page (beaucoup plus léger et rapide);Process the page header uniquely (much lighter and faster)
+autoscan=Détecter la présence de papier et démarrer la numérisation automatiquement (toutes les 5 secondes;Auto paper detection and start scanning  (every 5 seconds)
+decomposer=Décomposer en pages tous les documents traités;Split document into pages
+dialogue=Utiliser le dialogue du numériseur;Use scanner dialog
+cache=Numériser en arriere plan (caché);Back process (hide)
+manual=Sauvegarde manuelle;Auto Save
+plateau=Toujours utiliser le plateau;Always use plateform (no feeder)
+lcouleur=PPP couleur;Color PPP
+Lnoiretblanc=PPP Noir et blanc;Black and white PPP
+resolution=Résolutions~disponibles;Available resolutions
+label_textenum=Afin d'optimiser la taille des pages numérisées, la résolution et compression sont gérées par l'application soit:~   -Noir et blanc toujours par défaut avec une résolution de 300 ppp et compression G4FAX.~   -Couleur optionnel avec une résolution 150 ppp et compression Jpeg.Veuillez considérer qu'une numérisation couleur prend 10 fois plus d'espace que noir et blanc.;In order to optimize the size of the scanned pages, the resolution and compression are managed by the application:~   -Black and white always by default with a resolution of 300 dpi and G4FAX compression.~   -Optional color with 150 dpi resolution and Jpeg compression.~Please consider that a color scan takes 10 times more space than black and white.
+
+
+
+
+---------------------------------------------------------------------------------
+NumO.exe
+---------------------------------------------------------------------------------
+
+*Top tools
+Numo.caption=Omnimed - Numérisation;Omnimed - Scanning
+scan_selection=Sélection du numériseur;Scanner selection
+num_scan_btn=Numériser;Scan
+num_del=|Détruire cette page;Delete this page
+num_copy=|Copier;Copy
+num_paste=|Coller;Paste
+num_zommin=|Zoom +;Zoom +
+num_zoomout=|Zoom -;Zoom -
+num_fitwidth=|Adapter à la largeur;Fit to Width
+num_fitpage=|Adapter à la page;Fit to page
+num_rotate=|Retourner de 90°;Rotate 90°
+num_crop=|Découper;Crop
+num_enregistre=Enregistrer;Save
+num_quit=Quitter;Quit
+
+
+*scan tools
+num_labelTaille=Taille;Size
+num_taille=Automatique par le numériseur~Automatisée par l'application~Légal~Lettre;Autosizing by scanner~Autosizing by software~Lgal~Letter
+num_color=Couleur;Color
+num_recto=Recto/Verso;Both side
+num_vide=Ø page vide;Ø blank page|Retirer les pages vides;Auto discard blank page
+num_autorotate=Rotation;Rotate|Rotation automatique;Auto rotate
+num_autoborder=Bords;Border|Détection automatique des bords;Auto detect border
+num_plateau=Plateau;Glass|Plateau Numériser à partir du plateau;Scanner Glass
+Num_dialogue=Dialogue;Dialog|Utiliser le dialogue du numériseur;Use scanner dialog
+num_tiff=Tiff;Tiff|Enregistrer en format Tiff;Save as Tiff format
+num_pdf=Pdf;Pdf|Enregistrer en format Pdf;Save as Pdf format
+
+*Page Pages
+num_labelDeplace=Déplacer;Move
+num_up=|Déplacer vers le haute;Move up
+num_Down=|Déplacer vers le bas;Move down
+num_load=|Charger un fichier;Load file
+
+*Page capacités
+num_test=Démarrer le test;Start tests
+num_arreter=Arrêter;Stop
+
+ 
+
+
+
+
